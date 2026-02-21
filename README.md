@@ -43,7 +43,7 @@ Check out the Play Back app published in [Streamlit here](share_link)
 
 ## Run the App
 ```bash
-   streamlit run streamlit_app/0_🎵⏪_Play_Back_Home_Page.py
+   streamlit run 0_🎵⏪_Play_Back_Home_Page.py
 ```
 
 The Streamlit app will open in your browser at `http://localhost:8501`
