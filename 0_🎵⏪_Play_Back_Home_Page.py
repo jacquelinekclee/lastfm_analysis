@@ -18,7 +18,7 @@ def load_data(uploaded_file=None):
         raw_scrobbles = pd.read_csv(uploaded_file)
         processed_scrobbles = process_data.process_scrobbles(raw_scrobbles)
     else:
-        BASE_DIR = Path(__file__).parent.parent  
+        BASE_DIR = Path(__file__).parent  
         DATA_DIR = BASE_DIR / 'data/processed'
         CONFIG_DIR = BASE_DIR / 'config'
         data_config = json.load(open(Path(CONFIG_DIR / 'data-params.json')))

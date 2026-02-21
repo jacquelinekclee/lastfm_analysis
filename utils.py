@@ -1,13 +1,8 @@
 import streamlit as st
 import pandas as pd 
 import numpy as np
-import sys
-import os
-project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.append(os.path.join(project_dir, 'src'))
-
 import src.visualize as visualize  
-import models.clustering as clustering 
+import src.models.clustering as clustering 
 
 def render_calendar(df, year, quarter):
     """

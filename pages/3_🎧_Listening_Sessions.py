@@ -2,21 +2,14 @@ import streamlit as st
 import json
 import pandas as pd
 from pathlib import Path
-import os 
-import sys
 import utils
-import perform_clustering
-
-project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.append(os.path.join(project_dir, 'src'))
-
 # ============================================================
 # PAGE CONFIG
 # ============================================================
 
 st.set_page_config(page_title="Listening Sessions Analysis", page_icon="🎧", layout="wide")
 
-BASE_DIR = Path(__file__).parent.parent.parent  
+BASE_DIR = Path(__file__).parent.parent  
 
 # ============================================================
 # DATA LOADING

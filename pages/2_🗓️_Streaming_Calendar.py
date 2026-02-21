@@ -10,9 +10,8 @@ import plotly.graph_objects as go
 # PAGE CONFIG
 # ============================================================
 
-BASE_DIR = Path(__file__).parent.parent.parent  
+BASE_DIR = Path(__file__).parent.parent  
 VIZ_DIR = BASE_DIR / 'src'
-
 
 st.set_page_config(
     page_title="2025 Streaming Calendar",
