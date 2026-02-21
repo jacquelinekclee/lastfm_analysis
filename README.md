@@ -17,6 +17,7 @@ Please feel free to provide any feedback by opening an issue or connecting with 
 
 # Try it On Streamlit
 Check out the Play Back app published in [Streamlit here](share_link)
+
 [![Try it in Streamlit][share_badge]][share_link] 
 
 # Run the Streamlit App Locally
