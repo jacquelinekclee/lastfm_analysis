@@ -1,0 +1,2 @@
+# 🎵⏪ Play Back - Music Streaming History Deep Dive
+No matter which music streaming service you use, Play Back unlocks personalized insights into your listening habits. Explore your streaming history with interactive charts and graphs, from high-level streaming patterns to detailed yearly and quarterly heatmaps. Take your analysis to the next level by using Machine Learning to uncover your unique listening session types. Get started with your last.fm data, or explore my own music streaming history to get an idea of what you can uncover.
