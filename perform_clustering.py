@@ -47,7 +47,7 @@ def main(targets):
         session_stats_fp = Path(TEST_OUT_DATA_DIR / session_stats_filename)
         data_config['test_session_stats_fp'] = session_stats_filename
     else:
-        processed_scrobbles_fp = Path(OUT_DATA_DIR / data_config['scrobbles_fp'])
+        processed_scrobbles_fp = Path(OUT_DATA_DIR / data_config['processed_scrobbles_fp'])
         session_stats_filename = f'{date_str}_session_stats.csv'
         session_stats_fp = Path(OUT_DATA_DIR / session_stats_filename)
         data_config['test_session_stats_fp'] = session_stats_filename

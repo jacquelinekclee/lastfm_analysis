@@ -48,10 +48,14 @@ def main(targets):
     processed_scrobbles = process.process_scrobbles(scrobbles_fp)
     processed_scrobbles.to_csv(processed_scrobbles_fp, index = False)
     if len(targets) == 2:
-        n_clusters = int(targets[-1]) 
+        n = int(targets[-1])
+    elif len(targets) == 1:
+        if targets[0].isdigit():
+            n = int(targets[0])
     else: 
-        n_clusters = 4
-    session_stats = clustering.run_clustering(processed_scrobbles, session_stats_fp, n_clusters = n_clusters)
+        n = 4
+    session_stats = clustering.run_clustering(processed_scrobbles, n)
+    session_stats.to_csv(session_stats_fp, index = False)
     with open(str(BASE_DIR) + '/config/data-params.json', 'w') as file:
         file.write(str(data_config).replace("'", '"'))
     return processed_scrobbles_filename, session_stats_filename
