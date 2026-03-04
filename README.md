@@ -16,7 +16,7 @@ See below for instructions for all 3 options.
 Please feel free to provide any feedback by opening an issue or connecting with me on [LinkedIn](https://www.linkedin.com/in/jacqueline-kc-lee/). 
 
 # Try it On Streamlit
-Check out the Play Back app published in [Streamlit here](share_link)
+Check out the Play Back app published in [Streamlit here][share_link]
 
 [![Try it in Streamlit][share_badge]][share_link] 
 
