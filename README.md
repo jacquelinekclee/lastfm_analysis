@@ -92,4 +92,4 @@ python3 run.py test {n_clusters}
 ```
 
 [share_badge]: https://static.streamlit.io/badges/streamlit_badge_black_white.svg
-[share_link]: https://lastfmanalysis.streamlit.app/
+[share_link]: https://playback-analytics.streamlit.app/
