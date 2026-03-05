@@ -176,7 +176,8 @@ if st.session_state['model_trained']:
         cluster += 1
 
 if st.session_state['model_trained']:
-    st.download_button("Download your istening sessions data (.csv)", 
+    st.divider()
+    st.download_button("Download your listening sessions data (.csv)", 
                        st.session_state['session_stats'].to_csv(index = False), 
                        file_name="listening_sessions.csv", 
                        help="This .csv includes all features used to train your ML model \
