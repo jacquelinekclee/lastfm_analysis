@@ -16,7 +16,8 @@ See below for instructions for all 3 options and details on my k-means clusterin
 Please feel free to provide any feedback by opening an issue or connecting with me on [LinkedIn](https://www.linkedin.com/in/jacqueline-kc-lee/). 
 
 # Try it On Streamlit
-Check out the Play Back app published in [Streamlit here](share_link)
+Check out the Play Back app published in [Streamlit here][share_link]
+
 [![Try it in Streamlit][share_badge]][share_link] 
 
 # Run the Streamlit App Locally
@@ -42,7 +43,7 @@ Check out the Play Back app published in [Streamlit here](share_link)
 
 ## Run the App
 ```bash
-   streamlit run streamlit_app/0_🎵⏪_Play_Back_Home_Page.py
+   streamlit run 0_🎵⏪_Play_Back_Home_Page.py
 ```
 
 The Streamlit app will open in your browser at `http://localhost:8501`
@@ -118,4 +119,4 @@ After reviewing inter- and intra-cluster distributions for the various features 
 See listening session examples of each of these clusters in [Play Back on Streamlit][share_link], and then build your own clustering model using the instructions above to uncover similar insights for yourself! 
 
 [share_badge]: https://static.streamlit.io/badges/streamlit_badge_black_white.svg
-[share_link]: https://lastfmanalysis.streamlit.app/
+[share_link]: https://playback-analytics.streamlit.app/
